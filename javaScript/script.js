@@ -50,7 +50,7 @@ const personalMovieDB = {
 
 function rememberMyFilms() {
     for (let index = 0; index < 2; index++) {
-        const a = prompt('Один из последних просмотренных фильмов', '');
+        const a = prompt('Один из последних просмотренных фильмов', '').trim();
         const b = +prompt('На сколько оцените его', '');
         if (a !== null && b !== null && a !== '' && b !== '' && a.length < 50) {
             personalMovieDB.movies[a] = b;
@@ -92,4 +92,4 @@ const showMyDB = (hidden) => {
     console.log(personalMovieDB);
 };
 
-//showMyDB(personalMovieDB.privat);
+showMyDB(personalMovieDB.privat);
