@@ -92,4 +92,4 @@ const showMyDB = (hidden) => {
     console.log(personalMovieDB);
 };
 
-showMyDB(personalMovieDB.privat);
+//showMyDB(personalMovieDB.privat);
