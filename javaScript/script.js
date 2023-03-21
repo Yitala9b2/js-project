@@ -1,4 +1,4 @@
-// самостоятельно
+
 
 // const numFilms = document.querySelector('#Films');
 
